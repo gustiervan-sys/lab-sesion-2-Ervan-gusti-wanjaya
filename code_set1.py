@@ -5,5 +5,5 @@ def calc(a, b):
     return 0
 
 
-x=[1,2,-3]
+x =[1,2,-3]
 print(calc(True,x[2]))
