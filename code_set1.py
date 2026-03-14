@@ -3,7 +3,7 @@ File     : code_set1.py
 Tujuan   : menyediakan fungsi sederhana untuk menghitung kuadrat bilangan 
            positif berdasarkan kondisi bolean tertentu.
 Fitur utama 
-    -mengecek kondisi bolean sebagai pemicu proses perhitungan 
+    -mengecek kondisi boolean sebagai pemicu proses perhitungan 
     -menghitung kuadrat bilangan jika nilainya positif
     -mengembalika nilai 0 jika kondisi tidak terpenuhi
 
@@ -15,22 +15,22 @@ def calc(a, b):
     """
     Hitung kuadrat dari bilangan jika terpenuhi.
 
-    periksa nilai bolean 'a'. jika 'a' bernilai True dan 'b' lebi besar
-    dari no, kembalikan kuadrat dari 'b'. jika kondisi terebut tidak 
-    terpenuh, kembalikan nilai 0 
+    periksa nilai boolean 'a'. jika 'a' bernilai True dan 'b' lebih besar
+    dari 0, kembalikan kuadrat dari 'b'. jika kondisi tersebut tidak 
+    terpenuhi, kembalikan nilai 0 
 
     Parameters
     ----------
     a : bool
         Menentukan apakah proses perhitungan dilakukan 
     b : int     
-        Bilangan yang akan diperiksa dan dihitung kuadrat nya 
+        Bilangan yang akan diperiksa dan dihitung kuadratnya 
         jika bernilai positif>
 
-    Return 
+    Returns 
     ----------
     int     
-       nilai kuasrat dari 'b' jika 'a == True' dan 'b > 0'
+       nilai kuadrat dari 'b' jika 'a == True' dan 'b > 0'
        jika tidak maka mengembalikan 0
 
     contoh 
