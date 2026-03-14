@@ -1,6 +1,6 @@
 def calc(a, b):
     if a:
-        if b>0:
+        if b > 0:
             return b*b
     return 0
 
