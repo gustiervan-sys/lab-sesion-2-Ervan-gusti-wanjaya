@@ -4,5 +4,6 @@ def calc(a, b):
             return b*b
     return 0
 
+
 x=[1,2,-3]
 print(calc(True,x[2]))
